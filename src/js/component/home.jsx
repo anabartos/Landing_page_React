@@ -9,10 +9,13 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
+	const styles = {
+		width: "80%",
+	};
 	return (
 		<div className="container">
 			<NavBar />
-			<div className="container">
+			<div className="container" style={styles}>
 				<Jumbotron
 					title="A Warm Welcome!"
 					description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -57,6 +60,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };
