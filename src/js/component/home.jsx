@@ -13,55 +13,57 @@ const Home = () => {
 		width: "80%",
 	};
 	return (
-		<div className="container">
+		<>
 			<NavBar />
-			<div className="container" style={styles}>
-				<Jumbotron
-					title="A Warm Welcome!"
-					description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+			<div className="container">
+				<div className="container" style={styles}>
+					<Jumbotron
+						title="A Warm Welcome!"
+						description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 			molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 			numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 			optio, eaque rerum! Provident similique accusantium nemo autem."
-					button="call to action!"
-				/>
+						button="call to action!"
+					/>
 
-				<div className="row">
-					<div className="col-12 col-md-3">
-						<Card
-							title="Card Title"
-							imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
-							description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molliti."
-							button="Find out more!"
-						/>
-					</div>
-					<div className="col-12 col-md-3">
-						<Card
-							title="Card Title"
-							imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
-							description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molliti."
-							button="Find out more!"
-						/>
-					</div>
-					<div className="col-12 col-md-3">
-						<Card
-							title="Card Title"
-							imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
-							description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molliti."
-							button="Find out more!"
-						/>
-					</div>
-					<div className="col-12 col-md-3">
-						<Card
-							title="Card Title"
-							imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
-							description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia."
-							button="Find out more!"
-						/>
+					<div className="row">
+						<div className="col-12 col-md-3">
+							<Card
+								title="Card Title"
+								imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
+								description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molliti."
+								button="Find out more!"
+							/>
+						</div>
+						<div className="col-12 col-md-3">
+							<Card
+								title="Card Title"
+								imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
+								description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molliti."
+								button="Find out more!"
+							/>
+						</div>
+						<div className="col-12 col-md-3">
+							<Card
+								title="Card Title"
+								imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
+								description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molliti."
+								button="Find out more!"
+							/>
+						</div>
+						<div className="col-12 col-md-3">
+							<Card
+								title="Card Title"
+								imageUrl="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
+								description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia."
+								button="Find out more!"
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
 			<Footer />
-		</div>
+		</>
 	);
 };
 
